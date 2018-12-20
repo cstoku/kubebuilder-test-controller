@@ -1,0 +1,3 @@
+version: "1"
+domain: cstoku.io
+repo: github.com/cstoku/kubebuilder-test-controller

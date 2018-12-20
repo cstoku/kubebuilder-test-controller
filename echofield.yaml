@@ -1,0 +1,6 @@
+apiVersion: trial.cstoku.io/v1alpha1
+kind: EchoField
+metadata:
+  name: echofield-sample
+spec:
+  field: "hello!!"
