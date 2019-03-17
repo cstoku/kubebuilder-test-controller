@@ -17,7 +17,7 @@ rules:
   - patch
   - delete
 - apiGroups:
-  - trial.cstoku.io
+  - trial.cstoku.dev
   resources:
   - echofields
   verbs:

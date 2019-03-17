@@ -90,7 +90,7 @@ type ReconcileEchoField struct {
 // a Deployment as an example
 // Automatically generate RBAC rules to allow the Controller to read and write Deployments
 // +kubebuilder:rbac:groups=apps,resources=deployments,verbs=get;list;watch;create;update;patch;delete
-// +kubebuilder:rbac:groups=trial.cstoku.io,resources=echofields,verbs=get;list;watch;create;update;patch;delete
+// +kubebuilder:rbac:groups=trial.cstoku.dev,resources=echofields,verbs=get;list;watch;create;update;patch;delete
 func (r *ReconcileEchoField) Reconcile(request reconcile.Request) (reconcile.Result, error) {
 	// Fetch the EchoField instance
 	instance := &trialv1alpha1.EchoField{}

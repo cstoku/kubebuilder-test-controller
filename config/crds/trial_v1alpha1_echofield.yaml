@@ -4,9 +4,9 @@ metadata:
   creationTimestamp: null
   labels:
     controller-tools.k8s.io: "1.0"
-  name: echofields.trial.cstoku.io
+  name: echofields.trial.cstoku.dev
 spec:
-  group: trial.cstoku.io
+  group: trial.cstoku.dev
   names:
     kind: EchoField
     plural: echofields

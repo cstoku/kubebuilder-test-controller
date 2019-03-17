@@ -19,5 +19,5 @@ limitations under the License.
 // +k8s:deepcopy-gen=package,register
 // +k8s:conversion-gen=github.com/cstoku/kubebuilder-test-controller/pkg/apis/trial
 // +k8s:defaulter-gen=TypeMeta
-// +groupName=trial.cstoku.io
+// +groupName=trial.cstoku.dev
 package v1alpha1

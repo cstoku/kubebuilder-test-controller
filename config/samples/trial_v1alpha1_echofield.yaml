@@ -1,4 +1,4 @@
-apiVersion: trial.cstoku.io/v1alpha1
+apiVersion: trial.cstoku.dev/v1alpha1
 kind: EchoField
 metadata:
   labels:

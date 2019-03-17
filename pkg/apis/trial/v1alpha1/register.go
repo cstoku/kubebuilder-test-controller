@@ -21,7 +21,7 @@ limitations under the License.
 // +k8s:deepcopy-gen=package,register
 // +k8s:conversion-gen=github.com/cstoku/kubebuilder-test-controller/pkg/apis/trial
 // +k8s:defaulter-gen=TypeMeta
-// +groupName=trial.cstoku.io
+// +groupName=trial.cstoku.dev
 package v1alpha1
 
 import (
@@ -31,7 +31,7 @@ import (
 
 var (
 	// SchemeGroupVersion is group version used to register these objects
-	SchemeGroupVersion = schema.GroupVersion{Group: "trial.cstoku.io", Version: "v1alpha1"}
+	SchemeGroupVersion = schema.GroupVersion{Group: "trial.cstoku.dev", Version: "v1alpha1"}
 
 	// SchemeBuilder is used to add go types to the GroupVersionKind scheme
 	SchemeBuilder = &scheme.Builder{GroupVersion: SchemeGroupVersion}
